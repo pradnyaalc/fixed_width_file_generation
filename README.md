@@ -1,7 +1,7 @@
 # Fixed width docker file generation
 
-The application generates a fixed width file by reading the configuration for each column from spec.json.
-It also parses the generated fixed width file to generate a csv file. The type of the data for each column is considered to be string.
+The application generates a fixed width file by reading the configuration for each column from spec.json. The generated fixed width file will be left justified.
+The application also parses the generated fixed width file to generate a csv file. The type of the data for each column is considered to be string.
 
 ## Spec.json
 ### Attributes
